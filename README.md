@@ -1,8 +1,8 @@
 # Sentiment-analysis-of-Android-and-iOS-using-Twitter-text-mining
 
-We should install packages “twitter” and “RCurl” and load them into the session. 
-Twitter API requires authentication to retrieve tweets. 
-Go to the url  https://apps.twitter.com/, sign in and create a new app. To set up the connection, go to Keys and Access tokens tab and copy api_key, api_secret, access_token and access_token_secret. To set up twitter handshake authorization, we use the function: setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret).
+#We should install packages “twitter” and “RCurl” and load them into the session. 
+#Twitter API requires authentication to retrieve tweets. 
+#Go to the url  https://apps.twitter.com/, sign in and create a new app. To set up the connection, go to Keys and Access tokens tab and copy api_key, api_secret, access_token and access_token_secret. To set up twitter handshake authorization, we use the function: setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret).
 searchTwitter function is used to search tweets based on the search string.
 tweet <- searchTwitter(searchterm, n, lang = 'en', resultType = 'recent')
 searchTerm is the search string for which tweets should be extracted.
